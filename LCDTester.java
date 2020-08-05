@@ -24,7 +24,7 @@ public class LCDTester {
                 System.out.print("Espacio entre Digitos (0 a 5): ");
                 comando = lector.next();
 
-                // Valida si es un numero
+                // Valida realmente si es un numero
                 if (ImpresorLCD.isNumeric(comando))   {
                     espacioDig = Integer.parseInt(comando);
                     
