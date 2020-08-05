@@ -28,7 +28,7 @@ public class LCDTester {
                 if (ImpresorLCD.isNumeric(comando))   {
                     espacioDig = Integer.parseInt(comando);
                     
-                    // se valida que el espaciado este entre 0 y 5
+                    // Se valida que el espacio este entre 0 y 5
                     if(espacioDig <0 || espacioDig >5) {
                         throw new IllegalArgumentException("El espacio entre "
                                 + "digitos debe estar entre 0 y 5");
